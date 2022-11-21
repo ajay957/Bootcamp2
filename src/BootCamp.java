@@ -33,4 +33,23 @@ public class BootCamp {
             System.out.println("the smallest number is"+c);
         }
     }
+    public void prime(int a){
+        int num=0;
+        boolean flag=false;
+        System.out.println("enter a number");
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextInt();
+        while(a<num/2){
+            if(num % a==0){
+                flag=true;
+                break;
+            }
+        }
+        if(!flag){
+            System.out.println(a+"is a prime number");
+        }
+        else {
+            System.out.println(a+"is not a prime number");
+        }
+    }
 }
