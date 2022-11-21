@@ -52,4 +52,20 @@ public class BootCamp {
             System.out.println(a+"is not a prime number");
         }
     }
+    public void evenOrNot(int a){
+        int num=0;
+        System.out.println("enter a number");
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextInt();
+        if(a%2==0)
+        {
+            System.out.println("the number is even");
+        }
+        else{
+            System.out.println("the number is odd");
+        }
+
+    }
+
+
 }
